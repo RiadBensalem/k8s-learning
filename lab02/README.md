@@ -1,4 +1,4 @@
-# Istructions
+# Istructions: Running Containers in K8s with Pods and Deployments
 
 - Write a Kubernetes YAML file to create a deployment to run an application in a Pod. the Pod runs the container using the image 'kiamol/cha02-whoami'.
 -  Forward the traffic from the port 80 to 8080. 
