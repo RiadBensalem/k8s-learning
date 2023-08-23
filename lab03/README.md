@@ -8,6 +8,10 @@
 # Solution Steps
 
 Reading the Chapter 03 of the book, allows to understant that the web container calls the api container to generate a random number, thus:
+ - First deploy the Pods:
+ > kubectl apply -f deployment.yaml
+ - Check for the pods:
+ > kubectl get pods 
  - We need to create a ClusterIP service to enable communication between the web app and the api.
  - Create a second service of type LoadBalancer to enable communication from external to web app.
 
