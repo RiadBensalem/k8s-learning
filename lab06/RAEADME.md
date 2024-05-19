@@ -1,6 +1,6 @@
 # Instructions: Scaling Application Across Multiple Pods With Controllers
 
-We have two componant WEB and API, used in an app that generates random numbers. Two services are also provided: a clusterIP for the API and a LoadBalancer for the WEB.
+Initial manifest files are [provided here](https://github.com/sixeyed/kiamol/tree/master/ch06/lab/numbers) where we have two componant WEB and API, used in an app that generates random numbers. Two services are also provided: a clusterIP for the API and a LoadBalancer for the WEB.
  - Add a controller that supports high load for the web componant. (basically asking to use a Deployment)
  - Insure high avalability for the API (a DeamonSet will make it available in every node in the k8s cluster). This componant works only on specific nodes with special hardware(we mimic this scenario by adding the label `rng=hw` to a node). 
 
