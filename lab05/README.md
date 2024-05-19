@@ -1,4 +1,4 @@
-# Istructions: Storing Data with Volumes, Mounts and Claims
+# Instructions: Storing Data with Volumes, Mounts and Claims
 
  - Deploy the todo-list app manifest.
  - Get the LoadBalancer service URL, and check the logs for investigation.
